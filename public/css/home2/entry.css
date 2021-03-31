@@ -1,0 +1,14 @@
+main {
+    align-items: unset;
+    width: 40rem;
+}
+
+.entry-title {
+    color: #343a40;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.entry-author {
+    text-decoration: none;
+    color: cornflowerblue;
+}

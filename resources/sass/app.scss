@@ -1,0 +1,58 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15pt;
+    font-stretch: 100%;
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    margin: 0;
+}
+
+main {
+    @include flexCenter(column);
+    max-width: 100rem;
+    margin-top: 3rem;
+    min-height: calc(100vh - 15rem);
+    overflow-x: hidden;
+    margin: 0 auto;
+    align-items: center;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.error {
+    text-align: left;
+    color: $error;
+    font-size: 0.9rem;
+    margin-left: 35px;
+}
+
+a {
+    color: $paginatorLink;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.entry-author {
+    text-decoration: none;
+    color: $author;
+}
+
+.auth {
+    text-align: center;
+    margin: 2rem;
+}

@@ -1,0 +1,41 @@
+.card {
+    @include flexCenter(column);
+    position: relative;
+    display: -ms-flexbox;
+    width: 40rem;
+    word-wrap: break-word;
+    background-color: $secondary;
+    background-clip: border-box;
+    border: 1px solid $cardBorder;
+    border-radius: .25rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.card-options {
+    @include flexSpaceBetween(row);
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    color: $gray;
+}
+
+.card-text {
+    color: $gray;
+    font-size: 0.8rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.card-footer {
+    @include flexSpaceBetween(row);
+    padding: .75rem 1.25rem;
+    background-color: $cardBorder;
+    border-top: 1px solid $cardBorder;
+    color: $gray;
+}

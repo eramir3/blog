@@ -1,0 +1,39 @@
+header {
+    background-color: $header;
+    margin-bottom: 2rem;
+}
+
+.main-nav {
+    @include flexSpaceAround(row);
+    width: 100%;
+    max-width: 100rem;
+    background-color: $header;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.nav__brand {
+    color: $navItem;
+    text-decoration: none;
+}
+
+.nav__items {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav__item a {
+    text-decoration: none;
+    padding-left: 1rem;
+    color: white;
+}
+
+.nav__brand:hover {
+    color: $navItemHover;
+}
+
+.nav__item a:hover {
+    color: $navItemHover;
+}

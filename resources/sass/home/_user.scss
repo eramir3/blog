@@ -1,0 +1,35 @@
+.user-entries {
+    margin: 0;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+}
+
+.user-posts {
+    @include flexSpaceEvenly(row);
+    align-items: baseline;
+}
+
+.entry-card {
+    width: 30rem;
+}
+
+.tweet-card {
+    width: 15rem;
+}
+
+.tweet-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    color: $tweetHide;
+    text-decoration: none;
+    cursor: pointer;
+    border-color: none;
+}
+
+.tweet-btn:focus { 
+    outline: none; 
+}

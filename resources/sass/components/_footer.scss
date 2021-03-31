@@ -1,0 +1,10 @@
+.footer__container {
+    @include flexCenter(row);
+    background-color: $header;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+
+.footer__container p {
+    color: $navItem;
+}

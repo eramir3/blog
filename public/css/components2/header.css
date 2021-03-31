@@ -1,0 +1,42 @@
+header {
+    background-color: #343B40;
+    margin-bottom: 2rem;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 100rem;
+    background-color: #343B40;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.nav__brand {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav__items {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav__item a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1rem;
+    color: white;
+}
+
+.nav__brand:hover {
+    color: #6c757d;
+}
+
+.nav__item a:hover {
+    color: #6c757d;
+}
